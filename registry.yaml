@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: >-
+    eyJhdXRocyI6eyJyZWdpc3RyeS55ay5jb20iOnsidXNlcm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiSGFyYm9yMTIzNDUiLCJlbWFpbCI6InpmZzQxMzg0MjYxNkAxMjYuY29tIiwiYXV0aCI6IllXUnRhVzQ2U0dGeVltOXlNVEl6TkRVPSJ9fX0=
+kind: Secret
+metadata:
+  creationTimestamp: '2018-09-11T09:09:18Z'
+  name: registry
+  namespace: test
+  resourceVersion: ''
+  selfLink: /api/v1/namespaces/test/secrets/registry
+  uid: 5ce540dc-b5a2-11e8-8e95-005056b8b870
+type: kubernetes.io/dockerconfigjson

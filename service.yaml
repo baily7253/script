@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: '2018-09-21T05:51:27Z'
+  labels:
+    app: eureka02
+  name: eureka02
+  namespace: bigdata-stg
+  resourceVersion: ''
+  selfLink: /api/v1/namespaces/bigdata-stg/services/eureka02
+  uid: 61c47488-bd62-11e8-9a47-005056b841b2
+spec:
+  clusterIP: 
+  ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: eureka02
+    deploymentconfig: eureka02
+  sessionAffinity: None
+  type: ClusterIP
+status:
+  loadBalancer: {}

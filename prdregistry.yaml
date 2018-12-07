@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: >-
+    eyJhdXRocyI6eyJyZWdpc3RyeS5pbnNhaWNpbnQuY29tIjp7InVzZXJuYW1lIjoiYWRtaW4iLCJwYXNzd29yZCI6IkhhcmJvcjEyMzQ1IiwiZW1haWwiOiJ0ZXN0ZGVwbG95QGluc2FpYy5jb20iLCJhdXRoIjoiWVdSdGFXNDZTR0Z5WW05eU1USXpORFU9In19fQ==
+kind: Secret
+metadata:
+  creationTimestamp: '2018-10-24T08:25:50Z'
+  name: registry
+  namespace: bigdata
+  resourceVersion: ''
+  selfLink: /api/v1/namespaces/bigdata/secrets/registry
+  uid: 
+type: kubernetes.io/dockerconfigjson
